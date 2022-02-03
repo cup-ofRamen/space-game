@@ -18,12 +18,12 @@ var config = {
 var game = new Phaser.Game(config)
 function preload(){
 scene = this
-scene.load.image('playership','images/playership.png')
-scene.load.image('enemyship','images/enemyship.png')
-scene.load.image('enemyship2','images/enemyship2.png')
-scene.load.image('missile','images/missile.png')
-scene.load.image('alienmissile','images/alienmissile.png')
-scene.load.image('game over', 'images/game over.jpg')
+scene.load.image('playership','playership.png')
+scene.load.image('enemyship','enemyship.png')
+scene.load.image('enemyship2','enemyship2.png')
+scene.load.image('missile','missile.png')
+scene.load.image('alienmissile','alienmissile.png')
+scene.load.image('game over', 'game over.jpg')
 
 }
 function create(){
